@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "phlex/lucide"
+require "phlex/lucide/generator"
+
+Phlex::Lucide::Generator.do_the_thing

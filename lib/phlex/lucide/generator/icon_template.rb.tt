@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module Phlex
+  module Lucide
+    class {{icon_class_name}} < Phlex::Lucide::Icon
+      def view_template
+        {{icon_content}}
+      end
+    end
+  end
+end

@@ -1,8 +1,39 @@
+require:
+  - rubocop-rake
+  - rubocop-minitest
+
 AllCops:
-  TargetRubyVersion: 3.0
+  NewCops: enable
+  TargetRubyVersion: 3.2
+
+Style/Documentation:
+  Exclude:
+    - test/**/*
+    - lib/phlex/lucide/icons/*
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+  IndentationWidth: 2
+
+Layout/LineLength:
+  Exclude:
+    - lib/phlex/lucide/icons/*
+
+Metrics/BlockLength:
+  Exclude:
+    - lib/phlex/lucide/icons/*
+
+Metrics/MethodLength:
+  Max: 20
+  Exclude:
+    - lib/phlex/lucide/icons/*
+
+Metrics/AbcSize:
+  Exclude:
+    - lib/phlex/lucide/icons/*
