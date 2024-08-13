@@ -35,6 +35,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Runtime dependencies
-  spec.add_dependency "phlex", "~> 1.11"
+  spec.add_dependency "phlex", "~> 1.10"
   spec.metadata["rubygems_mfa_required"] = "true"
 end

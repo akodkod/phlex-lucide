@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    phlex-lucide (0.427.0)
-      phlex (~> 1.11)
+    phlex-lucide (0.427.1)
+      phlex (~> 1.10)
 
 GEM
   remote: https://rubygems.org/
