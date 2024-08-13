@@ -1,4 +1,11 @@
-![Lucide Icons](https://github.com/user-attachments/assets/479b586a-8f43-43ee-b8bc-1b4f697f22a4)
+<p align="center">
+  <a href="https://github.com/akodkod/phlex-lucide#gh-light-mode-only">
+    <img src="https://lucide.dev/lucide-logo-repo.svg#gh-light-mode-only" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
+  </a>
+  <a href="https://github.com/akodkod/phlex-lucide#gh-dark-mode-only">
+    <img src="https://lucide.dev/lucide-logo-repo-dark.svg#gh-dark-mode-only" alt="Lucide - Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons." width="480">
+  </a>
+</p>
 
 # Phlex Lucide
 
