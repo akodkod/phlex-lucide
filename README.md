@@ -1,6 +1,8 @@
+![Lucide Icons](https://github.com/user-attachments/assets/479b586a-8f43-43ee-b8bc-1b4f697f22a4)
+
 # Phlex Lucide
 
-[Lucide.dev](https://lucide.dev/) icons implementation for [Phlex](https://phlex.fun/).
+[Lucide Icons](https://lucide.dev/) implementation for [Phlex](https://phlex.fun/)
 
 ## Highlights
 - 🎨 1520+ icons
