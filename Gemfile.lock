@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    phlex-lucide (0.427.1)
+    phlex-lucide (0.428.0)
       phlex (~> 1.10)
 
 GEM

@@ -1405,6 +1405,7 @@ module Phlex
     autoload :TicketSlashIcon, "phlex/lucide/icons/ticket_slash_icon"
     autoload :TicketXIcon, "phlex/lucide/icons/ticket_x_icon"
     autoload :TicketIcon, "phlex/lucide/icons/ticket_icon"
+    autoload :TicketsPlaneIcon, "phlex/lucide/icons/tickets_plane_icon"
     autoload :TicketsIcon, "phlex/lucide/icons/tickets_icon"
     autoload :TimerOffIcon, "phlex/lucide/icons/timer_off_icon"
     autoload :TimerResetIcon, "phlex/lucide/icons/timer_reset_icon"
