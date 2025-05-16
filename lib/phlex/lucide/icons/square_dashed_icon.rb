@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class BoxSelectIcon < Phlex::Lucide::Icon
+    class SquareDashedIcon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",

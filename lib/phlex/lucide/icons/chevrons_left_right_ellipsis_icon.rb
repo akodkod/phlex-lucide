@@ -16,11 +16,11 @@ module Phlex
           stroke_linejoin: "round",
           **props
         ) do |s|
-          s.path(d: "m18 8 4 4-4 4")
-          s.path(d: "m6 8-4 4 4 4")
-          s.path(d: "M8 12h.01")
           s.path(d: "M12 12h.01")
           s.path(d: "M16 12h.01")
+          s.path(d: "m17 7 5 5-5 5")
+          s.path(d: "m7 7-5 5 5 5")
+          s.path(d: "M8 12h.01")
         end
       end
     end
