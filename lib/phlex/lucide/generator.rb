@@ -96,7 +96,8 @@ module Phlex
         phlex_icon_content = phlex_icon_content
           .gsub('width: "24"', "width: size")
           .gsub('height: "24"', "height: size")
-          .gsub("\n) do |s|", ",\n**props) do |s|") # Add props to the block
+          .gsub("\n) do |s|", ",\n**props) do |s|") # Add props to multiline block
+          .gsub("\n) { |s|", ",\n**props) { |s|") # Add props to single line block
 
         # Write the Phlex file
         File.write("#{PHLEX_ICONS_PATH}/#{icon_file_name}.rb", phlex_icon_content)
