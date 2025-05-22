@@ -13,7 +13,8 @@ module Phlex
           stroke: "currentColor",
           stroke_width: "2",
           stroke_linecap: "round",
-          stroke_linejoin: "round"
+          stroke_linejoin: "round",
+          **props
         ) { |s| s.path(d: "m15 18-6-6 6-6") }
       end
     end

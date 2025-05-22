@@ -13,7 +13,8 @@ module Phlex
           stroke: "currentColor",
           stroke_width: "2",
           stroke_linecap: "round",
-          stroke_linejoin: "round"
+          stroke_linejoin: "round",
+          **props
         ) { |s| s.polygon(points: "12 2 19 21 12 17 5 21 12 2") }
       end
     end

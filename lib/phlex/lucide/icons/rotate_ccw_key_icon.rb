@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class FilterIcon < Phlex::Lucide::Icon
+    class RotateCcwKeyIcon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",
@@ -13,8 +13,15 @@ module Phlex
           stroke: "currentColor",
           stroke_width: "2",
           stroke_linecap: "round",
-          stroke_linejoin: "round"
-        ) { |s| s.polygon(points: "22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3") }
+          stroke_linejoin: "round",
+          **props
+        ) do |s|
+          s.path(d: "m14.5 9.5 1 1")
+          s.path(d: "m15.5 8.5-4 4")
+          s.path(d: "M3 12a9 9 0 1 0 9-9 9.74 9.74 0 0 0-6.74 2.74L3 8")
+          s.path(d: "M3 3v5h5")
+          s.circle(cx: "10", cy: "14", r: "2")
+        end
       end
     end
   end
