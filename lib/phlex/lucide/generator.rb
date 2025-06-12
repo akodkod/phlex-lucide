@@ -76,7 +76,7 @@ module Phlex
         end
       end
 
-      def self.generate_icon(svg_file, icon_template)
+      def self.generate_icon(svg_file, icon_template) # rubocop:disable Metrics/AbcSize
         # Get the icon name
         icon_file_name = File.basename(svg_file, ".svg")
 
