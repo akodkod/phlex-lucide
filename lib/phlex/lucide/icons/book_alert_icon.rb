@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class ListCollapseIcon < Phlex::Lucide::Icon
+    class BookAlertIcon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",
@@ -16,11 +16,12 @@ module Phlex
           stroke_linejoin: "round",
           **props
         ) do |s|
-          s.path(d: "M10 12h11")
-          s.path(d: "M10 18h11")
-          s.path(d: "M10 6h11")
-          s.path(d: "m3 10 3-3-3-3")
-          s.path(d: "m3 20 3-3-3-3")
+          s.path(d: "M12 13h.01")
+          s.path(d: "M12 6v3")
+          s.path(
+            d:
+              "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"
+          )
         end
       end
     end

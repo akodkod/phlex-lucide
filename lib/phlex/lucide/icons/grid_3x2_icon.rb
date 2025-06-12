@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class ListCollapseIcon < Phlex::Lucide::Icon
+    class Grid3x2Icon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",
@@ -16,11 +16,10 @@ module Phlex
           stroke_linejoin: "round",
           **props
         ) do |s|
-          s.path(d: "M10 12h11")
-          s.path(d: "M10 18h11")
-          s.path(d: "M10 6h11")
-          s.path(d: "m3 10 3-3-3-3")
-          s.path(d: "m3 20 3-3-3-3")
+          s.path(d: "M15 3v18")
+          s.path(d: "M3 12h18")
+          s.path(d: "M9 3v18")
+          s.rect(x: "3", y: "3", width: "18", height: "18", rx: "2")
         end
       end
     end
