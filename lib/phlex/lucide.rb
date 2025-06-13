@@ -1170,6 +1170,7 @@ module Phlex
     autoload :ReceiptSwissFrancIcon, "phlex/lucide/icons/receipt_swiss_franc_icon"
     autoload :ReceiptTextIcon, "phlex/lucide/icons/receipt_text_icon"
     autoload :ReceiptIcon, "phlex/lucide/icons/receipt_icon"
+    autoload :RectangleCircleIcon, "phlex/lucide/icons/rectangle_circle_icon"
     autoload :RectangleEllipsisIcon, "phlex/lucide/icons/rectangle_ellipsis_icon"
     autoload :RectangleGogglesIcon, "phlex/lucide/icons/rectangle_goggles_icon"
     autoload :RectangleHorizontalIcon, "phlex/lucide/icons/rectangle_horizontal_icon"
