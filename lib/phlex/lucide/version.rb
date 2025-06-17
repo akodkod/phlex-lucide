@@ -2,6 +2,6 @@
 
 module Phlex
   module Lucide
-    VERSION = "0.515.0"
+    VERSION = "0.516.0"
   end
 end

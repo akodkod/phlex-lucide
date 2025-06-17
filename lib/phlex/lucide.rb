@@ -1594,6 +1594,7 @@ module Phlex
     autoload :WheatOffIcon, "phlex/lucide/icons/wheat_off_icon"
     autoload :WheatIcon, "phlex/lucide/icons/wheat_icon"
     autoload :WholeWordIcon, "phlex/lucide/icons/whole_word_icon"
+    autoload :WifiCogIcon, "phlex/lucide/icons/wifi_cog_icon"
     autoload :WifiHighIcon, "phlex/lucide/icons/wifi_high_icon"
     autoload :WifiLowIcon, "phlex/lucide/icons/wifi_low_icon"
     autoload :WifiOffIcon, "phlex/lucide/icons/wifi_off_icon"
