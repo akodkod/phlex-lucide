@@ -1,5 +1,6 @@
-require:
+plugins:
   - rubocop-rake
+require:
   - rubocop-minitest
 
 AllCops:

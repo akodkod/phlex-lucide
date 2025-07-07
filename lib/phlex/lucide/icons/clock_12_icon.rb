@@ -16,8 +16,8 @@ module Phlex
           stroke_linejoin: "round",
           **props
         ) do |s|
+          s.path(d: "M12 6v6")
           s.circle(cx: "12", cy: "12", r: "10")
-          s.polyline(points: "12 6 12 12")
         end
       end
     end

@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class MailQuestionIcon < Phlex::Lucide::Icon
+    class BarrelIcon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",
@@ -16,13 +16,14 @@ module Phlex
           stroke_linejoin: "round",
           **props
         ) do |s|
-          s.path(d: "M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5")
-          s.path(d: "m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7")
+          s.path(d: "M10 3a41 41 0 0 0 0 18")
+          s.path(d: "M14 3a41 41 0 0 1 0 18")
           s.path(
             d:
-              "M18 15.28c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2"
+              "M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z"
           )
-          s.path(d: "M20 22v.01")
+          s.path(d: "M3.84 17h16.32")
+          s.path(d: "M3.84 7h16.32")
         end
       end
     end
