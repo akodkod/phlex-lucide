@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class BadgeHelpIcon < Phlex::Lucide::Icon
+    class LineSquiggleIcon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",
@@ -18,10 +18,8 @@ module Phlex
         ) do |s|
           s.path(
             d:
-              "M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"
+              "M7 3.5c5-2 7 2.5 3 4C1.5 10 2 15 5 16c5 2 9-10 14-7s.5 13.5-4 12c-5-2.5.5-11 6-2"
           )
-          s.path(d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3")
-          s.line(x1: "12", x2: "12.01", y1: "17", y2: "17")
         end
       end
     end

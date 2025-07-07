@@ -2,7 +2,7 @@
 
 module Phlex
   module Lucide
-    class CircleHelpIcon < Phlex::Lucide::Icon
+    class MessageCircleQuestionMarkIcon < Phlex::Lucide::Icon
       def view_template
         svg(
           xmlns: "http://www.w3.org/2000/svg",
@@ -16,7 +16,7 @@ module Phlex
           stroke_linejoin: "round",
           **props
         ) do |s|
-          s.circle(cx: "12", cy: "12", r: "10")
+          s.path(d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z")
           s.path(d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3")
           s.path(d: "M12 17h.01")
         end
